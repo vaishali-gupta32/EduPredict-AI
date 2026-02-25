@@ -1,0 +1,157 @@
+{
+  "champion": {
+    "model_name": "LogisticRegression",
+    "accuracy": 0.9625,
+    "roc_auc": 0.9985,
+    "f1_at_risk": 0.9609,
+    "f1_macro": 0.9614,
+    "precision_score": 0.9348,
+    "recall_score": 0.9885,
+    "confusion_matrix": [
+      [
+        165,
+        7,
+        0
+      ],
+      [
+        1,
+        134,
+        6
+      ],
+      [
+        0,
+        1,
+        86
+      ]
+    ],
+    "model_version": "v1.0",
+    "is_champion": true,
+    "trained_at": "2026-02-25T14:32:02.934412Z",
+    "feature_names": [
+      "age",
+      "gender",
+      "department",
+      "semester",
+      "attendance_pct",
+      "assignment_score_avg",
+      "internal_marks_avg",
+      "semester_gpa",
+      "study_hours_per_week",
+      "participation_score",
+      "prev_semester_gpa",
+      "backlogs",
+      "financial_aid"
+    ],
+    "label_map": {
+      "0": "High",
+      "1": "Medium",
+      "2": "At Risk"
+    }
+  },
+  "all_models": [
+    {
+      "model_name": "LogisticRegression",
+      "accuracy": 0.9625,
+      "roc_auc": 0.9985,
+      "f1_at_risk": 0.9609,
+      "f1_macro": 0.9614,
+      "precision_score": 0.9348,
+      "recall_score": 0.9885,
+      "confusion_matrix": [
+        [
+          165,
+          7,
+          0
+        ],
+        [
+          1,
+          134,
+          6
+        ],
+        [
+          0,
+          1,
+          86
+        ]
+      ]
+    },
+    {
+      "model_name": "RandomForest",
+      "accuracy": 0.935,
+      "roc_auc": 0.9921,
+      "f1_at_risk": 0.9305,
+      "f1_macro": 0.9329,
+      "precision_score": 0.87,
+      "recall_score": 1.0,
+      "confusion_matrix": [
+        [
+          160,
+          12,
+          0
+        ],
+        [
+          1,
+          127,
+          13
+        ],
+        [
+          0,
+          0,
+          87
+        ]
+      ]
+    },
+    {
+      "model_name": "XGBoost",
+      "accuracy": 0.9425,
+      "roc_auc": 0.9953,
+      "f1_at_risk": 0.9297,
+      "f1_macro": 0.939,
+      "precision_score": 0.8776,
+      "recall_score": 0.9885,
+      "confusion_matrix": [
+        [
+          164,
+          8,
+          0
+        ],
+        [
+          2,
+          127,
+          12
+        ],
+        [
+          0,
+          1,
+          86
+        ]
+      ]
+    },
+    {
+      "model_name": "LightGBM",
+      "accuracy": 0.94,
+      "roc_auc": 0.9952,
+      "f1_at_risk": 0.9405,
+      "f1_macro": 0.9387,
+      "precision_score": 0.8878,
+      "recall_score": 1.0,
+      "confusion_matrix": [
+        [
+          161,
+          11,
+          0
+        ],
+        [
+          2,
+          128,
+          11
+        ],
+        [
+          0,
+          0,
+          87
+        ]
+      ]
+    }
+  ]
+}
