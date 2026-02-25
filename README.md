@@ -4,6 +4,10 @@ An end-to-end AI/ML platform that predicts student academic performance and drop
 
 ---
 
+## Screenshots
+
+<img width="1915" height="907" alt="image" src="https://github.com/user-attachments/assets/f2062d2f-5cf5-42a0-90a7-f11412cc6c56" />
+
 ## 🏗️ Architecture
 
 ```
